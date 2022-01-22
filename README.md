@@ -32,7 +32,7 @@
 
 ## You can deploy the bot yourself here(The easy way)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Mkbotskvrrrrrr/Instagram_DP_Saver_Bot.git)
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Mkbotskvrrrrrr/Instagram_DP_Saver_Bot.git)
 
 ## Watch the video here
 
