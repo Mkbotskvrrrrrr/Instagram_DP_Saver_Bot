@@ -16,7 +16,13 @@ START_MSG = '''*Welcome To the Bot🖐🖐*
 
 _Send me anyones instagram username to get their DP_
 
-*ex :* `mrk_yt_`...., *etc*'''
+
+
+എല്ലാവരുടെയും കിട്ടിക്കോളണം എന്നില്ല കാരണം 
+അറിയാലോ Mirshad ൻറെ ആണല്ലോ bot ഇത്രയൊക്കെ 
+പ്രതീക്ഷിച്ചാൽ മതി 🤪🤪😃😃😃😃
+
+*ex :*  mirshad_kvr`...., *etc*'''
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -63,7 +69,7 @@ def username(update, context):
     try:
         user = Profile.from_username(L.context, query)
         caption_msg = f'''♥️*Name*♥️: {user.full_name} \n😁*Followers*😁: {user.followers} \n🤩*Following*🤩: {user.followees}\
-         \n🧐*Account Type*🧐: {acc_type(user.is_private)}\n🤪*Bio🤪*: {user.biography}\n👀*Midia*👀 {user.mediacount} \n\n*Thank You For Using The bot 😀😀*'''
+         \n🧐*Account Type*🧐: {acc_type(user.is_private)}\n🤪*Bio🤪*: {user.biography}\n👀*Midia*👀 {user.mediacount} \n\n*  ഏതായാലും കിട്ടിയില്ലേ Mirshad നോട് താങ്ക്സ് പറഞ്ഞേക്ക് Thank You For Using The bot 😀😀*'''
        
         context.bot.send_photo(
             chat_id=chat_id, photo=user.profile_pic_url,
@@ -71,7 +77,7 @@ def username(update, context):
         msg.edit_text("finished.")
         time.sleep(5)
     except Exception:
-        msg.edit_text("Try again 😕😕 Check the username correctly")
+        msg.edit_text("Try again 😕😕 Check the username correctly ഇനി നമ്മൾ എന്ത് ചെയ്യും മല്ലയ 😕😕")
 
 
 
